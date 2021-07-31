@@ -1,8 +1,4 @@
 #!/bin/bash
-#sort /tmp/test.txt | uniq > /tmp/yote.txt
-#homeDir="/home/caleb/Documents/githubrepos/advocado/blocklists/"
-#test -d "${homeDir}" && echo "Github repo in correct place, proceeding with repo updates." || echo "Github repo missing, exiting." && exit 1
-
 adlistsGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/adlists.txt"
 malwareGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/malware.txt"
 phishingGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/phishing.txt"
@@ -15,14 +11,12 @@ uploadDir="/home/anon/adlists/uploadLists/"
 
 unset IFS
 for x in $(ls -Ut $sourceDir | xargs -n 1 basename) ; do
-    #IFS=' '
-    #URLs=$(readarray -t URLs < $sourceDir$x)
-    #URLs=$(<$sourceDir$x)
     URLs=()
     while IFS= read -r line; do
         URLs+=("$line")
     done <$sourceDir$x
-    echo -e "\nNow doing $x\n"
+    #Uncomment for debugging
+    echo -e "Now doing $x"
     fullList=()
     IFS=' '
     for z in "${URLs[@]}"
@@ -33,4 +27,6 @@ for x in $(ls -Ut $sourceDir | xargs -n 1 basename) ; do
     echo $fullListClean > $uploadDir$x
     unset IFS
 done
-
+git add .
+git commit -m "Auto Update: $(date --iso-8601)"
+git push origin master
