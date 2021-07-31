@@ -10,10 +10,8 @@ seasonscamsGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/ma
 trackingGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/tracking.txt"
 unclassifiedGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/unclassified.txt"
 
-sourceDir="/mnt/c/Users/caleb/OneDrive/Documents/Seedlessbackup/seedless/management/sources/"
-uploadDir="/mnt/c/Users/caleb/OneDrive/Documents/Seedlessbackup/seedless/management/upload/"
-#mkdir /tmp/updateRepos
-#[ "$(ls -A /tmp/updateRepos)" ] && rm ${baseDir}/* || echo "Already Empty"
+sourceDir="/home/anon/adlists/sourceLists/"
+uploadDir="/home/anon/adlists/uploadLists/"
 
 unset IFS
 for x in $(ls -Ut $sourceDir | xargs -n 1 basename) ; do
