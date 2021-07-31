@@ -1,0 +1,16 @@
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/adaway.org/list.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/adblock-nocoin-list/list.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/adguard-simplified/list.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/anudeepnd-adservers/list.txt
+https://jasonhill.co.uk/pfsense/ytadblock.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/disconnect.me-ad/list.txt
+https://dbl.oisd.nl/
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/fademind-add.spam/list.txt
+https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/winhelp2002.mvps.org/list.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/stevenblack/list.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/someonewhocares.org/list.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/spam404.com/list.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/pgl.yoyo.org/list.txt	
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/kadhosts/list.txt

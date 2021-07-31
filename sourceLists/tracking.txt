@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/CHEF-KOCH/Audio-fingerprint-pages/master/AudioFp.txt
+https://raw.githubusercontent.com/CHEF-KOCH/Canvas-fingerprinting-pages/master/Canvas.txt
+https://raw.githubusercontent.com/CHEF-KOCH/WebRTC-tracking/master/WebRTC.txt
+https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/disconnect.me-tracking/list.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/easylist/list.txt
+https://raw.githubusercontent.com/hectorm/hmirror/master/data/easyprivacy/list.txt
