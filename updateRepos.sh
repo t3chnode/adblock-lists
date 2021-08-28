@@ -29,4 +29,4 @@ for x in $(ls -Ut $sourceDir | xargs -n 1 basename) ; do
 done
 git add .
 git commit -m "Auto Update: $(date --iso-8601)"
-git push origin master
+git push origin master --force
