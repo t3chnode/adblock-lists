@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#sourceDir="/home/anon/adlists/sourceLists/"
-#uploadDir="/home/anon/adlists/uploadLists/"
-cd /home/anon/adlists/
 unset IFS
 for x in $(ls -Ut ./sourceLists | xargs -n 1 basename) ; do
     URLs=()
