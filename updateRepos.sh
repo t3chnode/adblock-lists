@@ -1,10 +1,10 @@
 #!/bin/bash
-adlistsGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/adlists.txt"
-malwareGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/malware.txt"
-phishingGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/phishing.txt"
-seasonscamsGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/seasonalscams.txt"
-trackingGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/tracking.txt"
-unclassifiedGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/unclassified.txt"
+#adlistsGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/adlists.txt"
+#malwareGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/malware.txt"
+#phishingGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/phishing.txt"
+#seasonscamsGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/seasonalscams.txt"
+#trackingGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/tracking.txt"
+#unclassifiedGitURL="https://raw.githubusercontent.com/seedlessnetwork/advocado/master/blocklists/unclassified.txt"
 
 sourceDir="/home/anon/adlists/sourceLists/"
 uploadDir="/home/anon/adlists/uploadLists/"
